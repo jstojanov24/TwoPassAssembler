@@ -1,0 +1,27 @@
+.global a,b
+.text
+.byte 123
+xchg r1[-3], r0
+xchg r4,r5
+sub r4[a], r3
+int &a
+int 4
+a: mov r2,b
+xor psw, 2
+div r4, *3000
+shl r6, 5
+push r7
+pop [r2]
+jeq r3
+b:
+jmp a
+jmp $a
+call b
+ret
+or r5, &b
+test r0, psw
+.data
+.byte 12, 13, 14, 15
+.word a
+.word b
+.end

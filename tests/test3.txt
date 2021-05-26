@@ -1,0 +1,39 @@
+.global a,b
+.extern c
+.text
+.skip 3
+lab3:
+add r2[-10],r5
+xchg r5[-2],r0
+xchg r1[3],psw
+jmp $lab3
+xchg r1,r2
+jne $labb
+jne $b
+jeq a
+jgt lab
+call a
+call c
+call lab
+not r5[a]
+push r2[23]
+push psw
+pop [r4]
+push r3
+shl r1,3
+shr psw, &b
+lab:
+.byte 12
+.byte lab
+.equ novi,3
+.align 4
+int &a
+ret
+int   6
+a:
+.word lab
+.data
+.byte 23,20,0
+labb: .word a
+b: .skip 2
+.end

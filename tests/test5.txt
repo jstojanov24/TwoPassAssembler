@@ -1,0 +1,13 @@
+.global a,b
+.extern c
+.text
+jmp a
+jgt $b
+b:
+.word 4567
+a:
+int 12
+add r3[lab],psw
+.data
+.skip 3
+.end

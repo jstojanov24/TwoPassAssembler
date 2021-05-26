@@ -1,0 +1,24 @@
+.global a,b,c
+.text
+mul r4, *1000
+b: .word 1678
+.skip 6
+.equ simbol,a+2-b
+.align 5
+.word lab
+lab:
+.byte 235
+a:
+.equ simbol2, c-7+lab2
+add r3, &a
+.data
+.word c
+.word 34567
+c:
+.skip 3
+.byte 12
+lab2:
+.align 4
+.bss
+.word 1234
+.end

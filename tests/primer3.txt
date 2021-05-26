@@ -1,0 +1,31 @@
+0	und	und	0	global	
+1	a	text	89	global	
+2	b	data	5	global	
+3	c	und	0	global	
+4	text	text	0	local	91
+5	lab3	text	3	local	
+6	lab	text	77	local	
+7	novi	text	3	local	
+8	data	data	0	local	7
+9	labb	data	3	local	
+
+TEXT
+00 00 00 2C 84 F6 FF 2A 14 8A FE FF 20 14 82 03 00 3E 9C 00 ED FF 14 22 24 AC 00 01 00 AC 00 FE FF A4 00 00 00 B4 00 4D 00 BC 00 00 00 BC 00 00 00 BC 00 4D 00 54 8A 59 00 8C 84 17 00 8C 3E 94 48 8C 26 7C 22 00 03 00 84 3E 00 05 00 0C 4D 00 1C 00 59 00 C4 1C 00 06 00 4D 00 
+#.rel.text
+#Offset	Type	Value
+27	PCR_16	8
+31	PCR_16	2
+35	PC_16	1
+39	PC_16	4
+43	PC_16	1
+47	PC_16	3
+51	PC_16	4
+78	PC_16	4
+89	PC_16	4
+
+DATA
+17 14 00 00 00 00 00 
+#.rel.data
+#Offset	Type	Value
+3	PC_16	1
+

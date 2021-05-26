@@ -1,0 +1,22 @@
+0	und	und	0	global	
+1	a	text	22	global	
+2	b	text	48	global	
+3	text	text	0	local	69
+4	data	data	0	local	8
+
+TEXT
+7B 14 82 FD FF 20 14 28 2A 34 88 16 00 26 1C 00 16 00 1C 00 04 00 24 24 00 00 00 6C 3E 00 02 00 44 28 A0 B8 0B 7C 2C 00 05 00 8C 2E 94 44 A4 26 9C 00 00 00 9C 00 FE FF BC 00 00 00 C4 64 2A 00 30 00 74 20 3E 
+#.rel.text
+#Offset	Type	Value
+25	PC_16	2
+50	PC_16	1
+54	PCR_16	1
+58	PC_16	2
+
+DATA
+0C 0D 0E 0F 00 00 00 00 
+#.rel.data
+#Offset	Type	Value
+4	PC_16	1
+6	PC_16	2
+

@@ -1,0 +1,24 @@
+0	und	und	0	global	
+1	a	text	18	global	
+2	b	text	5	global	
+3	c	data	4	global	
+4	text	text	0	local	23
+5	simbol	text	15	local	
+6	lab	text	17	local	
+7	simbol2	text	5	local	
+8	data	data	0	local	8
+9	lab2	data	8	local	
+10	bss	bss	0	local	2
+
+TEXT
+37 28 A0 E8 03 8E 06 00 00 00 00 00 00 00 00 11 00 EB 2C 26 00 12 00 
+#.rel.text
+#Offset	Type	Value
+15	PC_16	4
+
+DATA
+00 00 07 87 00 00 00 0C 
+#.rel.data
+#Offset	Type	Value
+0	PC_16	3
+

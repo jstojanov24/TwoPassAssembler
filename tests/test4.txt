@@ -1,0 +1,13 @@
+.global a,b
+.data
+.word 12
+.skip 3
+.byte 1290
+.bss
+lab:
+.byte 2
+.text
+add r2,13
+b:
+.word b
+.end

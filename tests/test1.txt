@@ -1,0 +1,21 @@
+.global a
+.extern b
+.text
+add r1,[r4]
+a: shl psw, 2
+jmp a
+jmp lab
+xchg r4, r2[a]
+jgt $lab
+lab2:
+.skip 3
+mov r0, r5[2]
+jeq $lab2
+.data
+.byte 12
+.word lab2
+lab:
+.skip 3
+.bss
+.word 120
+.end
